@@ -1,0 +1,62 @@
+
+
+Commonly used Git Commands :-
+
+1) git init :- It is used to initialise a Directory as an empty git repo.
+
+2) git clone :-  It is used to clone the repository hosted on GitHub into our local system.
+
+3) git add <file-name> :- It is used to add untracked changes in <file-name> to the staging area for commit from working directory.
+
+4) git add . :- It is used to add untracked changes in all files into staging area for commit  from working directory.
+
+5) git status :- It is used to view which files are staged for commit.
+
+6) git diff :- used to know the changes done in original file.
+
+7) git log --oneline :- used to know the all the commits in repo's history in oneline.
+
+8) git commit -m"<message>" : used to commit the changes.
+
+9) git push origin <branch-name> : used to push the changes done locally to reflect in GitHub.
+
+
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+GIT BRANCHING :- 
+
+1) git branch <branch-name> :- used to create a new branch <branch-name> from current branch.
+
+2) git checkout <branch-name> :- is used to switch from current branch to branch-name.
+
+3) git merge <branch-name> :- used to merge branch <branch-name> into current branch.
+
+4) git branch -D <branch-name> :- used to force delete a branch <branch-name> locally.
+
+5) git push origin --delete <branch-name> : used to delete a branch remotely.
+
+6) git cherry-pick #commitHash :- used to apply commit into our current branch from a branch having commit hash #commitHash
+
+7) git pull origin <branch-name> :- (merge + fetch)Fetches the changes from the remote                    
+                               repository (origin), specifically from the branch <branch-name>.
+                               Merges the fetched changes into your current local branch (<branch-name>)
+
+
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+
+GIT CHERRY-PICK CONFLICTS :- For Detailed Approach Refer :- (https://www.youtube.com/watch?v=aUeNbpSkY8k)
+
+1) git cherry-pick --abort : used to abort the cherry-pick operation
+
+Resolve The Conflicts and use "git cherry-pick --continue".
+
+
+
+
+
+
+
+
