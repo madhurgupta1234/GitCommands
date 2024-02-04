@@ -54,7 +54,11 @@ GIT CHERRY-PICK CONFLICTS :- For Detailed Approach Refer :- (https://www.youtube
 Resolve The Conflicts and use "git cherry-pick --continue".
 
 
+------------------------------------------------------------------------------------------------
 
+git stash :- is used to store the changes stack and is used to bring the project back to lastest head commit 
+
+git stash pop :- used to restore the changes
 
 
 
